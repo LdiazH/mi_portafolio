@@ -30,7 +30,7 @@
         tecnologias: ["Python"],
         enlace: "#",
         imagen: "https://miro.medium.com/v2/resize:fit:1400/0*FNIfBkJjBWx0S_gr.jpg",
-        github: "#"
+        github: "https://github.com/LdiazH/agendar_horas_python"
       },
       {
         titulo: "Autofix",
