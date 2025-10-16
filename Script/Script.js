@@ -17,6 +17,31 @@
         github: "https://github.com/LdiazH/ciberseguridad_Info"
       },
       {
+        titulo: "Gestor de tareas con Django",
+        descripcion: "Aplicación web orientada en la creacion de tareas, edicion de las tareas creadas, visualización de los detalles y eliminación, utilizando Django y Sqlite para la persistencia de los datos. Además de ha utilizado un sistema de registro y autorizacion de usuarios respectivo. ",
+        tecnologias: ["HTML", "CSS", "Bootstrap", "Python", "Django", "SQLite"],
+        enlace: "#",
+        imagen: "https://infinitoo.co/wp-content/uploads/2024/04/1_Tx8qsmQmlLNXzQIt-QWddA.jpg",
+        github: "https://github.com/LdiazH/Gestor_tareas_django"
+      },
+      {
+        titulo: "Gestor de productos con Django",
+        descripcion: "Aplicación web orientada en la creacion y gestion de productos, visualización de los detalles y eliminación, utilizando Django y Sqlite para la persistencia de los datos. ",
+        tecnologias: ["HTML", "CSS", "Bootstrap", "Python", "Django", "SQLite"],
+        enlace: "#",
+        imagen: "https://infinitoo.co/wp-content/uploads/2024/04/1_Tx8qsmQmlLNXzQIt-QWddA.jpg",
+        github: "https://github.com/LdiazH/gestor_productos"
+      },
+      {
+        titulo: "Proyecto Recetario y Eventos Culinarios",
+        descripcion: "Programa administrador de recetas y creacion de eventos culinareos, donde se podran crear eventos y visualizar recetas disponibles, creando en colaboracion con compañeros de equipo, utilizando la herramienta de control de versiones GitHub.",
+        tecnologias: ["HTML", "CSS", "Bootstrap","Python", "Django", "SQLite"],
+        enlace: "#",
+        imagen: "https://miro.medium.com/v2/resize:fit:1400/0*FNIfBkJjBWx0S_gr.jpg",
+        github: "https://github.com/darksea48/M6_AE3_AEPRO_Recetario"
+      },
+      
+      {
         titulo: "TaskManager - Gestor de tareas",
         descripcion: "Programa administrador de tareas, donde se podran crear tareas con estado pendiente, visualizar las tareas creadas, cambiar el estado de pendiente a completado y la eliminación de la tarea.",
         tecnologias: ["Python"],
