@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,12 +9,13 @@
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  
+
   <!-- Font Awesome para iconos -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
   <link rel="stylesheet" href="Style/Style.css">
 </head>
+
 <body>
 
   <!-- Barra de navegación -->
@@ -58,14 +60,20 @@
     <div class="container">
       <h2 class="text-center section-title">Sobre Mí</h2>
       <div class="row align-items-center">
+
         <div class="col-lg-4 text-center mb-4 mb-lg-0">
-          <img src="Images/IMG-20250301-WA0003 (1).jpg" alt="Luis Enrique Díaz" class="img-fluid rounded-circle shadow" style="width: 300px; height: 300px; object-fit: cover;">
+          <img src="Images/IMG-20250301-WA0003 (1).jpg" alt="Luis Enrique Díaz" class="img-fluid rounded-circle shadow"
+            style="width: 300px; height: 300px; object-fit: cover;">
         </div>
         <div class="col-lg-8">
-          <p class="lead">¡Hola! Soy Luis Enrique Díaz, desarrollador web con pasión por crear soluciones digitales efectivas y atractivas.</p>
-          <p>Con más de 1 año de experiencia en el desarrollo de aplicaciones web, me especializo en tecnologías frontend y backend. Me encanta aprender nuevas tecnologías y enfrentar desafíos que me permitan crecer profesionalmente.</p>
-          <p>Cuando no estoy programando, disfruto de la fotografía, el senderismo y compartir tiempo con mi familia.</p>
-          
+          <p class="lead">¡Hola! Soy Luis Enrique Díaz, desarrollador web con pasión por crear soluciones digitales
+            efectivas y atractivas.</p>
+          <p>Con más de 1 año de experiencia en el desarrollo de aplicaciones web, me especializo en tecnologías
+            frontend y backend. Me encanta aprender nuevas tecnologías y enfrentar desafíos que me permitan crecer
+            profesionalmente.</p>
+          <p>Cuando no estoy programando, disfruto de la fotografía, el senderismo y compartir tiempo con mi familia.
+          </p>
+
           <div class="mt-4">
             <h5 class="mb-3">Habilidades técnicas:</h5>
             <div class="d-flex flex-wrap gap-2">
@@ -92,9 +100,20 @@
     <div class="container">
       <h2 class="text-center section-title">Mis Proyectos</h2>
       <p class="text-center mb-5">Una colección de mis trabajos más recientes y destacados.</p>
-      
+      <div class="d-flex justify-content-center flex-wrap gap-2 mb-4">
+        <button class="btn btn-outline-dark filter-btn" data-tech="all">Todos</button>
+        <button class="btn btn-outline-dark filter-btn" data-tech="javascript">JavaScript</button>
+        <button class="btn btn-outline-dark filter-btn" data-tech="python">Python</button>
+        <button class="btn btn-outline-dark filter-btn" data-tech="django">Django</button>
+        <!--
+        <button class="btn btn-outline-dark filter-btn" data-tech="vue">Vue</button>
+        <button class="btn btn-outline-dark filter-btn" data-tech="node">Node.js</button> 
+        -->
+      </div>
       <div class="row g-4" id="project-list">
         <!-- Proyectos se cargarán aquí dinámicamente -->
+
+
       </div>
     </div>
   </section>
@@ -104,7 +123,7 @@
     <div class="container">
       <h2 class="text-center section-title">Contacto</h2>
       <p class="text-center mb-5">¿Interesado en trabajar juntos? ¡No dudes en contactarme!</p>
-      
+
       <div class="row justify-content-center">
         <div class="col-lg-6">
           <form id="contact-form">
@@ -132,11 +151,12 @@
     <div class="container">
       <div class="social-icons mb-4">
         <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/luis-diaz-huenulef-37667186/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.linkedin.com/in/luis-diaz-huenulef-37667186/" target="_blank"><i
+            class="fab fa-linkedin"></i></a>
         <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
         <a href="mailto:tuemail@example.com"><i class="fas fa-envelope"></i></a>
       </div>
-      <p class="mb-2">© 2023 Luis Enrique Díaz. Todos los derechos reservados.</p>
+      <p class="mb-2">© 2025 Luis Enrique Díaz. Todos los derechos reservados.</p>
       <p class="small">Desarrollado con <i class="fas fa-heart text-danger"></i> por Luis Díaz</p>
     </div>
   </footer>
@@ -146,7 +166,8 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
   <script src="Script/Script.js">
-    
+
   </script>
 </body>
+
 </html>
